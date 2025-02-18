@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Grenze Gotisch", serif;
+}
+
+.header {
+  background-color: #6d4463;
+  padding: 16px 200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 52px;
+}
+
+.header-logo {
+  color: #f3dbed;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header img {
+  height: 50px;
+  height: 50px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #f3dbed;
+}
+
+.hero-section {
+  background-color: #6d4463;
+  padding: 50px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 52px;
+  color: #f3dbed;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.hero-section img {
+  width: 50%;
+  max-width: 400px;
+  border: 2px solid #3a2134;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  font-family: "Grenze Gotisch", serif;
+  font-size: 18px;
+  border-radius: 10px;
+  border: transparent;
+  background-color: #3a2134;
+  color: #f3dbed;
+  flex-shrink: 0;
+}
+
+.info {
+  background-color: #f3dbed;
+  padding: 50px 300px;
+  text-align: center;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #3a2134;
+}
+
+.card-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 52px;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.info-card {
+  max-width: 200px;
+}
+
+.info img {
+  max-width: 100%;
+}
+
+.quote {
+  background-color: #ac84a2;
+  padding: 50px 300px;
+}
+
+.quote .text {
+  font-size: 36px;
+}
+
+.quote .cit {
+  text-align: end;
+  font-size: 24px;
+}
+
+.cta {
+  background-color: #3a2134;
+  margin: 50px 200px;
+  color: #f3dbed;
+  border-radius: 8px;
+  padding: 24px 52px;
+  font-size: 18px;
+}
+
+.cta-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 52px;
+}
+
+.cta button {
+  border: 2px solid #f3dbed;
+}
+
+.footer {
+  background-color: #6d4463;
+  font-size: 18px;
+  text-align: center;
+  color: #f3dbed;
+}
